@@ -27,15 +27,9 @@ jobs:
           docker login -u $DOCKER_USER -p $DOCKER_PSW
 
       # Runs a single command using the runners shell
-      - name: docker build local app
-        run:
-          docker build ./python -t andymaintain/pythonlankyapp:1.0
       - name: docker build 
         run:
           docker build ./nodejs -t andymaintain/nodelankyapp:1.0
-      - name: docker push python 
-        run:
-          docker push andymaintain/pythonlankyapp:1.0
       - name: docker push node
         run:
           docker push andymaintain/nodelankyapp:1.0
