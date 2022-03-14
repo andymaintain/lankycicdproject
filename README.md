@@ -2,8 +2,7 @@
 
 This readme file explains all the processes I <br/>
 employed in automating a CI/CD  workflow using <br/>
-GitHub action and Azure devops<br/>
-
+GitHub action to push to Azure webserviceses <br/>
 <br/>
 
 
