@@ -30,4 +30,4 @@ The azure authentication strategy.
 6. Commit the code to the master branch and the action is triggered automatically.
 <br/>
 
-NB: various actions for can be found at <href="GitHub.com/azure/actions>
+NB: various actions for can be found at <a href="GitHub.com/azure/actions"> GitHub actions </a>
